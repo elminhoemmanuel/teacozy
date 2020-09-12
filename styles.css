@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    border:0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: black;
+
+}
+
+
+
+
+/* nav section */
+.nav{
+    height: 80px;
+}
+
+.navbar{
+    background-color: black;
+    padding-top: 10px;
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+
+.nav-links{
+    display: flex;
+    padding-top: 12px;
+    width: 30%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+.brand-img{
+    padding-left: 10px;
+    height: 50px;
+}
+
+.navbar a,.navbar a:hover{
+    color: seashell;
+}
+
+
+/* mission section */
+.mission-div{
+    background-image: url("images/mission-background.png");
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.statement-holder{
+    text-align: center;
+    background-color: black;
+    width: 1200px;
+}
+
+.statement-holder h2{
+    padding-bottom: 5px;
+}
+
+/* tom section        tom means tea of the month */
+.tom{
+    margin-top: 40px;
+}
+.tea-container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sample{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.sample-img{
+    width: 300px;
+    height:200px;
+}
+
+
+/* locations section  */
+.locations{
+    margin-top: 40px;
+}
+.locations-holder{
+    padding-top: 50px;
+    width: 1200px;
+    height: 500px;
+    background-image: url("images/locations-background.png");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.locations-holder h2{
+    text-align: center;
+}
+
+.locations-container{
+    width: 1200px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.cards{
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    opacity: 1;
+    margin-right: 40px;
+    padding: 8px;
+    text-align: center;
+}
